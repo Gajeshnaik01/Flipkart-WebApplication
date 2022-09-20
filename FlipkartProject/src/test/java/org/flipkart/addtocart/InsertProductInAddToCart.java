@@ -13,7 +13,7 @@ public class InsertProductInAddToCart extends BaseClass{
 	
 	
 	@Test(retryAnalyzer = org.yantra.genericUtility.RetryImpClass.class)
-	public void insertProductToCart() throws InterruptedException {
+	public void insertProductToCart() {
 		homePage.clickCancelBtn();
 		String productName=ThreadSafeClass.getExcelUtility().getExcelData(IConstants.sheetName, 2, 1);
 		homePage.sendTxtToSearch(productName).setProduct();
