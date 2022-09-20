@@ -16,4 +16,5 @@ public interface IConstants {
 		 */
 		public String EXCELFILEPATH="./src/test/resources/TestData.xlsx";
 
+		public String sheetName="FLIPKART";
 }
