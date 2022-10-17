@@ -5,11 +5,11 @@
     <classes>
       <class name="org.flipkart.addtocart.InsertProductInAddToCart">
         <methods>
-          <include name="classTearDown"/>
           <include name="classSetup"/>
+          <include name="classTearDown"/>
           <include name="suiteTearDown"/>
-          <include name="methodTearDown"/>
           <include name="insertProductToCart"/>
+          <include name="methodTearDown"/>
           <include name="methodSetup"/>
           <include name="suiteSetup"/>
         </methods>

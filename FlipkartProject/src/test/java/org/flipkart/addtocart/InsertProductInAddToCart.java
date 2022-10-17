@@ -21,7 +21,7 @@ public class InsertProductInAddToCart extends BaseClass{
 		productPage.clickOnProduct(expectedProduct).addProductToCart();
 		ListenerImpClass.testLog.info("Product is added to cart");
 		String actualProduct=addToCart.getProductNameInCart();
-		expectedProduct=expectedProduct.substring(0, 20);
+		expectedProduct=expectedProduct.substring(0, 20);		
 		ListenerImpClass.testLog.info("Validating cart");
 		Assert.assertTrue(actualProduct.contains(expectedProduct));
 		ListenerImpClass.testLog.info("Product Successfully Added to Cart");
